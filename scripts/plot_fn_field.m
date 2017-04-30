@@ -8,4 +8,4 @@ fnparams.B    = 0.25;
 fnparams.Tau  = 1;
 fnparams.Iext = 1;
 
-fitzhugh_nagumo(TaskManager.LIMIT_CYCLE, fnparams)
+fitzhugh_nagumo(TaskManager.FUN_SOL, fnparams)

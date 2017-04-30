@@ -5,6 +5,7 @@ classdef TaskManager
     properties (Constant)
        VECTOR_FIELD = 0
        LIMIT_CYCLE  = 1
+       FUN_SOL = 2
     end    
 end
 
