@@ -1,6 +1,6 @@
-addpath('/home/g/Aether/not_lab/src/neural_stimulation_models/utils')
-addpath('/home/g/Aether/not_lab/src/neural_stimulation_models/visualization')
-addpath('/home/g/Aether/not_lab/src/neural_stimulation_models/models')
+addpath(fullfile('..', 'utils'))
+addpath(fullfile('..', 'visualization'))
+addpath(fullfile('..', 'models'))
 
 fnparams = FitzhughNagumoParams;
 fnparams.A    = 0.5;
